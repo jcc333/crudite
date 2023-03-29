@@ -1,6 +1,6 @@
-# CRDTMacs
+# CRuDiTe
 
-A collaborative, highly-concurrent editor.
+A collaborative, highly-concurrent editor. Maybe...
 
 ## Installation
 
