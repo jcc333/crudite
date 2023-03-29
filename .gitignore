@@ -131,3 +131,6 @@ dist
 graphql_schema.json
 .graphql_cache
 .graphql_ppx_cache
+
+*package-lock.json
+*rescript-vscode-1.16.0
