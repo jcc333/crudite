@@ -4,7 +4,8 @@
   "scripts": {
     "res:build": "rescript",
     "res:clean": "rescript clean",
-    "res:dev": "rescript build -w"
+    "res:dev": "rescript build -w",
+    "run": "node ./src/Demo.bs.js"
   },
   "keywords": [
     "rescript"
@@ -12,6 +13,6 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "rescript": "*"
+    "rescript": "^10.1.3"
   }
 }
