@@ -134,3 +134,8 @@ graphql_schema.json
 
 *package-lock.json
 *rescript-vscode-1.16.0
+
+
+# Added by cargo
+
+/target

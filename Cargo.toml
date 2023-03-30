@@ -1,0 +1,29 @@
+[package]
+name = "crudite"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+json = "0.12.4"
+redis = "0.22.3"
+rocket = "0.4.11"
+
+[lib]
+name = "crudite"
+path = "src/lib.rs"
+test = true
+doctest = true
+
+[[bin]]
+name = "crudite-server"
+path = "src/bin/server.rs"
+
+[[bin]]
+name = "queue-tail"
+path = "src/bin/queue_tail.rs"
+
+[[bin]]
+name = "main"
+path = "src/main.rs"
